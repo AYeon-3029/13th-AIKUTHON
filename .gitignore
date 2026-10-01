@@ -1,0 +1,31 @@
+# Local tools and credentials
+.claude/
+.codex/
+.agents/
+.aws/
+.env
+.env.*
+
+# Python / notebooks
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Competition datasets and generated artifacts
+/train/
+/test/
+/crop/
+/patches_cache/
+/embeddings/
+/models/
+*.zip
+*.pth
+*.pt
+*.ckpt
+/submission*.csv
+
+# OS files
+.DS_Store
+Thumbs.db
